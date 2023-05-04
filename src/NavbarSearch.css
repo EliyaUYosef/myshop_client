@@ -1,0 +1,15 @@
+.navbar__search-form {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__search-input {
+  margin-right: 10px;
+}
+
+.navbar__search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
