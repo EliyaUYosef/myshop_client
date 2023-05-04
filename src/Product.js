@@ -5,7 +5,7 @@ import {
   faShoppingCart,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
-import test1 from "./test1.png";
+import test1 from "./assets/media/products/test/test.png";
 
 function Product(props) {
   const { model, brand, frame_material, price } = props.product;

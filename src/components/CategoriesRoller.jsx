@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Category from "./Category";
-import "../categories.css";
+import "../styles/categories.css";
 
 function CategoriesRoller() {
   const [categories, setCategories] = useState([]);

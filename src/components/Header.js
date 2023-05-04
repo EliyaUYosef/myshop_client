@@ -4,7 +4,7 @@ import CategoriesDropdown from "./CategoriesDropdown";
 import NavbarSearch from "./NavbarSearch";
 
 // import { Link } from "react-router-dom";
-import png from "../Untitled 2.png";
+import png from "../assets/media/system/logo/logo.png";
 function Header() {
   return (
     <header>
@@ -29,7 +29,7 @@ function Header() {
             <a href="#">Contact-Us</a>
           </li>
         </ul>
-        {/* <NavbarSearch /> */}
+        <NavbarSearch />
       </nav>
     </header>
   );

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-function Login() {
+function LoginForm() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = (event) => {
+  const handleLoginForm = (event) => {
     event.preventDefault();
     // handle login logic here, e.g. submit form data to server or authenticate locally
     console.log(`Submitted login: ${username} - ${password}`);
@@ -13,7 +13,7 @@ function Login() {
   return (
     <div>
       <h1>Login</h1>
-      <form onSubmit={handleLogin}>
+      <form onSubmit={handleLoginForm}>
         <div>
           <label htmlFor="username">Username/Email/Phone:</label>
           <input
@@ -38,4 +38,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginForm;

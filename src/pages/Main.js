@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Product from "../Product";
-import HeroImage from "./HeroImage";
-import CategoriesRoller from "./CategoriesRoller";
+import HeroImage from "../components/HeroImage";
+import CategoriesRoller from "../components/CategoriesRoller";
 
-// import Login from "../Login";
-// import Signup from "../Signup";
+// import LoginForm from "../LoginForm";
+// import SignupForm from "../SignupForm";
 // import Carousel from "../Carousel";
-
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 function Main() {
   // const products = {
@@ -124,8 +121,8 @@ function Main() {
   return (
     <div className="main-parent">
       <main>
-        {/* <Login />
-        <Signup /> */}
+        {/* <LoginForm />
+        <SignupForm /> */}
         <div className="categories-container">
           <CategoriesRoller />
         </div>

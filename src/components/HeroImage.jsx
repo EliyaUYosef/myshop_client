@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import wallpaper1 from "../wallpaper1.jpg";
-import wallpaper2 from "../wallpaper2.jpg";
-import wallpaper3 from "../wallpaper3.jpg";
+import wallpaper1 from "../assets/media/system/wallpapers/wallpaper1.jpg";
+import wallpaper2 from "../assets/media/system/wallpapers/wallpaper2.jpg";
+import wallpaper3 from "../assets/media/system/wallpapers/wallpaper3.jpg";
 
 function HeroImage(props) {
   const [wallpaper, setWallpaper] = useState(wallpaper1);

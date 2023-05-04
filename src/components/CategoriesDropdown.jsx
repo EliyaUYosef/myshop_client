@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Dropdowner from "./Dropdowner";
-import "../categories.css";
+import "../styles/categories.css";
 
 function CategoriesDropdown() {
   // const categoriesList = [
