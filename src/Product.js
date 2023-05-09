@@ -8,7 +8,8 @@ import {
 import test1 from "./assets/media/products/test/test.png";
 
 function Product(props) {
-  const { model, brand, frame_material, price } = props.product;
+  const { model, brand, frame_material, type, wheel_size, price } =
+    props.product;
   let newPrice = 0;
   if (price > 10) {
     newPrice = price / 10;
@@ -28,7 +29,7 @@ function Product(props) {
       <button>
         <FontAwesomeIcon
           icon={faPlus}
-          style={{ color: "00EF00", fontSize: "110%" }}
+          style={{ color: "#00EF00", fontSize: "110%" }}
         />
         <FontAwesomeIcon
           icon={faShoppingCart}

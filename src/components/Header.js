@@ -2,6 +2,7 @@ import React from "react";
 import Dropdowner from "./Dropdowner";
 import CategoriesDropdown from "./CategoriesDropdown";
 import NavbarSearch from "./NavbarSearch";
+import { Link } from "react-router-dom";
 
 // import { Link } from "react-router-dom";
 import png from "../assets/media/system/logo/logo.png";
@@ -20,7 +21,7 @@ function Header() {
             <CategoriesDropdown />
           </li>
           <li>
-            <a href="#">ProductsIndex</a>
+            <Link to="/categories/">Categories</Link>
           </li>
           <li>
             <a href="#">Brands</a>

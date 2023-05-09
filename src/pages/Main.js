@@ -109,7 +109,7 @@ function Main() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/products")
+    fetch(`http://localhost:3030/api/products`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data.data); // check the structure of data
